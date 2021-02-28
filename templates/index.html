@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>People</title>
+</head>
+<body>
+    <h4>These are the people on my list</h4>
+    <ol>
+    {% for person in people %}
+         <li>{{ person.firstname}}, {{ person.lastname}}</li>
+    {% endfor %}
+    </ol>
+
+    <a href="/add">Add another</a>
+</body>
+</html>
