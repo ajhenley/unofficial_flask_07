@@ -1,0 +1,15 @@
+{
+  "name": "ajflasktest",
+  "description": "This app does one little thing, and does it well.",
+  "keywords": [
+    "flask",
+    "test",
+    "db"
+  ],
+  "image": "heroku/python",
+  "buildpacks": [
+    {
+      "url": "https://github.com/stomita/heroku-buildpack-phantomjs"
+    }
+  ]
+}
